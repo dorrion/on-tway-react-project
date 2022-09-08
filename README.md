@@ -3,7 +3,6 @@
 
 ##  🙌 Introduction
 안녕하세요. 저희는 알고리즘 스터디를 시작으로 다양한 사이드 프로젝트를 도전하며 배운 기술을 소화시키고 있는 CoRun팀입니다. 저희 팀원은 다음과 같습니다!
-(뭔가의 정보 추가? - 깃허브 주소나 블로그 주소 등등)
 - 김오은
 - 박성훈
 - 박여울
@@ -15,7 +14,6 @@
 
 ## :computer: Website
 Link : (배포페이지)
-홈페이지 사진
 ![markus-winkler-cxoR55-bels-unsplash](https://user-images.githubusercontent.com/100553086/188542056-593f6280-e955-4056-8471-34f1ab87bf7c.jpg)
 
 
