@@ -2,6 +2,7 @@
   "name": "dont-touch-origin-tway-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -63,8 +64,7 @@
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "prop-types": "^15.8.1",
-    "webpack": "^5.74.0"
+    "prop-types": "^15.8.1"
   },
   "repository": {
     "type": "git",
@@ -75,6 +75,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Co-Run-Toy-Project/tway-react-project/issues"
-  },
-  "homepage": "https://github.com/Co-Run-Toy-Project/tway-react-project#readme"
+  }
 }
