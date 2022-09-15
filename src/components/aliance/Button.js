@@ -2,7 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import data from "data/afl_list.json";
 
-const StyledCircle = styled.button`
+const IconWrapper = styled.a`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  grid-template-columns: repeat(6, 1fr);
+  color: #313131;
+  text-decoration: none;
+  cursor: pointer;
+`;
+
+const StyledCircle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,8 +25,8 @@ const StyledCircle = styled.button`
   height: 110px;
   border: none;
   border-radius: 50%;
-  color: #000000;
-  margin-left: 50px;
+  background-color: ${(props) => props.theme.white};
+
   cursor: pointer;
   :hover {
     background: ${(props) => props.theme.red};
@@ -30,13 +43,13 @@ function Button() {
   return (
     <>
       {data.afl.map((item) => (
-        <>
+        <IconWrapper>
           <StyledCircle>
             <Icon src={item.content}></Icon>
-            <div>{item.name}</div>
+           
           </StyledCircle>
-          
-        </>
+          <p>{item.name}</p>
+        </IconWrapper>
       ))}
     </>
   );
