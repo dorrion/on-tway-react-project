@@ -45,8 +45,7 @@ function Button() {
       {data.afl.map((item) => (
         <IconWrapper>
           <StyledCircle>
-            <Icon src={item.content}></Icon>
-           
+            <Icon src={item.content} />
           </StyledCircle>
           <p>{item.name}</p>
         </IconWrapper>
