@@ -23,9 +23,3 @@ Link : (배포페이지)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
-## 기술 선택 이유
-
-## 주요 기능
-
-## :pencil: License
-MIT License 괜찮으시면 ㄱㄱ
